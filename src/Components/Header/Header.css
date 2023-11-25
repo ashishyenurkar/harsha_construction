@@ -1,0 +1,55 @@
+/* Basic styles for header */
+.header {
+  background: linear-gradient(90deg, tomato, rgb(65, 23, 0));
+    color: white;
+    padding: 5px 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+  top: 0;
+  z-index: 1000;
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: white;
+  }
+  
+  /* Navigation links */
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar {
+      margin-top: 10px;
+    }
+  
+    .navbar a {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  

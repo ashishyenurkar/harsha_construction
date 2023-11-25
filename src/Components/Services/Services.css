@@ -1,0 +1,56 @@
+/* Services container */
+.services-container {
+    max-width: 100%;
+    margin: 4rem 2rem;
+    text-align: center;
+  }
+  .services-container h1{
+   color: tomato;
+   font-size:xx-large;
+  } 
+  
+  /* Carousel wrapper */
+  .carousel-wrapper {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Individual service slide */
+  .service-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style for image */
+  .service-slide img {
+    max-width: 410px;
+    height: 265px;
+    border-radius: 5px;
+  }
+  .service-slide p{
+  width: inherit;
+  height: 100px;
+  color: rgb(105,105,105);
+  }
+  
+  /* Style for service details */
+  .service-details {
+    margin-top: 15px;
+  }
+ 
+  
+  
+  
+  @media (max-width: 768px) {
+
+    .services-container {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      
+  }

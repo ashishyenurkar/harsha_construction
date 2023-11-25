@@ -1,0 +1,39 @@
+/* Basic responsive layout */
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .about-container{
+    color: tomato;
+  }
+  .content {
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  p{
+    color: rgb(105,105,105);
+  }
+  
+  .image {
+    text-align: right;
+    max-width: 80%;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content,
+    .image {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  

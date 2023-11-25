@@ -1,0 +1,21 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+  body{
+    font-family: "Roboto";
+  }
+  button {
+    background: linear-gradient(90deg, tomato, rgb(65, 23, 0));
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    padding: 10px 20px;
+  }
+  button:hover{
+    background: linear-gradient(90deg, rgb(11, 179, 8), rgb(65, 23, 0));
+    margin-bottom: 20px;
+   
+  }
+  
